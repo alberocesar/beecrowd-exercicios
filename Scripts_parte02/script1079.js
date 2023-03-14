@@ -4,15 +4,13 @@
  * falta resolver!!!
  */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split(' ');
+var input = require('fs').readFileSync('./stdin', 'utf8');
+const lines = input.split('\n');
 
-var n = parseInt(lines.shift());
+const n = parseInt(lines.shift());
 
-for (var i = 0; i < n; i++) {
-    var n1 = parseFloat(lines.shift());
-    var n2 = parseFloat(lines.shift());
-    var n3 = parseFloat(lines.shift());
-    var media = (n1 * 2 + n2 * 3 + n3 * 5) / 10;
+for (let i = 0; i < n; i++) {
+    let [a,b, c] = lines[i].split(' ').map(item => parseFloat(item));
+    var media = (a*2 + b*3 + c*5) / 10;
     console.log(media.toFixed(1));
-    }
+}

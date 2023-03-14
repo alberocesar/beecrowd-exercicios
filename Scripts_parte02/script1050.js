@@ -1,10 +1,9 @@
 /**
  * Exercício DDD 1050 beecrowd 
  * 
- * Codigo ainda falta resolver
  */
 
-var input = require("fs").readFileSync("stdin", "utf8");
+var input = require('fs').readFileSync('./stdin', 'utf8');
 
 let dddCode = parseInt(input);
 
@@ -32,5 +31,7 @@ switch (dddCode) {
         break;
     case 31:
         console.log("Belo Horizonte");
+    default:
+        console.log("DDD nao cadastrado");
 }
 
