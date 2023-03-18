@@ -1,5 +1,5 @@
 /**
- * Tabuada 1078 - URI Online Judge
+ * Tabuada 1078 - 
  */
 
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');

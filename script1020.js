@@ -1,3 +1,7 @@
+/**
+ * Idade em Dias 1020 
+ */
+
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 
 let qtdDias = parseInt(input);

@@ -1,5 +1,5 @@
 /**
- * Senha fixa 1114 - URI Online Judge | 1114
+ * Senha fixa 1114 - 
  */
 
 var input = require('fs').readFileSync('./stdin', 'utf8');

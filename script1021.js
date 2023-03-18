@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('/dev/stdin', 'utf8');
+let input = require('fs').readFileSync('stdin', 'utf8');
 let valor = parseFloat(input);
 
 console.log("NOTAS:");

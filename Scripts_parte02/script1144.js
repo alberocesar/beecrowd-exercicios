@@ -1,5 +1,5 @@
 /**
- * Sequência logica 1144 - URI Online Judge | 1144
+ * Sequência logica 1144 - 
  */
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');

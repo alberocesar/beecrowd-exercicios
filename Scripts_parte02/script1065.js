@@ -4,7 +4,6 @@
 
 var input = require("fs").readFileSync("stdin", "utf8");
 
-const input = require("fs").readFileSync("/dev/stdin", "utf8");
 const valores = input.split("\n");
 
 let pares = 0;
